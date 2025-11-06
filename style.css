@@ -1,0 +1,36 @@
+body {
+  background-color: #f5f7fa;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+#resultCard {
+  background: #fdfdfd;
+  border-left: 6px solid #0d6efd;
+}
+
+#resultCard.underweight {
+  border-left-color: #0dcaf0;
+}
+
+#resultCard.normal {
+  border-left-color: #198754;
+}
+
+#resultCard.overweight {
+  border-left-color: #ffc107;
+}
+
+#resultCard.obese {
+  border-left-color: #dc3545;
+}
+
+#historyTable tbody tr:nth-child(even) {
+  background-color: #eef1f4;
+}
+
+footer {
+  opacity: 0.7;
+}
